@@ -10,4 +10,14 @@ class SiswaController extends Controller
     {
         return view('siswa.index');
     }
+
+    public function create()
+    {
+        return view('siswa.create');
+    }
+
+    public function edit()
+    {
+        return view('siswa.edit');
+    }
 }

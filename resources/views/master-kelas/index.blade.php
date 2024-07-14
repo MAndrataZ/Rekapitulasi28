@@ -21,7 +21,7 @@
         </div>
         <div class="float-right">
             <div class="btn-group">
-                <a href="{{ route('kelas.create') }}" class="btn btn-success"><i class="fa fa-plus"></i></a>
+                <a href="{{ route('master-kelas.create') }}" class="btn btn-success"><i class="fa fa-plus"></i></a>
             </div>
         </div>
     </div>
@@ -40,7 +40,7 @@
                     <td>7-A</td>
                     <td>
                         <div class="btn-group">
-                            <a href="{{ route('kelas.edit', 1) }}" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="{{ route('master-kelas.edit', 1) }}" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>
                             <a href="#!" class="btn btn-sm btn-danger"><span class="fa fa-trash"></span></a>
                         </div>
                     </td>

@@ -28,13 +28,14 @@ Route::middleware(['auth'])->group(function(){
 
     //Tampilan kurikulum
     Route::get('admin/dashboard-kurikulum', 'DashboardKurikulumController@index')->name('dashboard-kurikulum.index');
-    Route::get('admin/dashboard-kurikulum/master-siswa', 'DashboardKurikulumController@masterSiswa')->name('dashboard-kurikulum.master-siswa');
     
     //Tampilan guru
     Route::get('admin/dashboard-guru', 'DashboardGuruController@index')->name('dashboard-guru.index');
 
+
     Route::resource('mapel', 'MapelController');
     Route::resource('kelas', 'KelasController');
+    Route::resource('master-kelas', 'MasterKelasController');
     Route::resource('siswa', 'SiswaController');
     Route::resource('guru', 'GuruController');
     Route::resource('leger', 'LegerController');

@@ -30,54 +30,21 @@
               <p>Dashboard</p>
             </a>
           </li>
-          <!-- Menu 1: Siswa -->
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-user-graduate"></i>
-              <p>
-                Siswa
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Tambah Siswa</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ route('dashboard-kurikulum.master-siswa') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Master Siswa</p>
-                </a>
-              </li>
-            </ul>
-          </li>
+ 
                 
-          <!-- Menu 2: Guru -->
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-chalkboard-teacher"></i>
-              <p>
-                Guru
-                <i class="right fas fa-angle-left"></i>
-              </p>
+          <!-- Siswa -->
+          <li class="nav-item">
+            <a href="{{ url('/siswa') }}" class="nav-link">
+                <i class="nav-icon fas fa-user-graduate"></i>
+              <p>Siswa</p>
             </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{ url('/guru/create') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Tambah Guru</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{ url('/guru') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Master Guru</p>
-                </a>
-              </li>
-            </ul>
+          </li>
+          <!-- Guru -->
+          <li class="nav-item">
+            <a href="{{ url('/guru') }}" class="nav-link">
+                <i class="nav-icon fas fa-chalkboard-teacher"></i>
+              <p>Guru</p>
+            </a>
           </li>
           <!-- Mapel -->
           <li class="nav-item">
@@ -89,7 +56,7 @@
 
           <!-- Kelas -->
           <li class="nav-item">
-            <a href="{{ url('/kelas') }}" class="nav-link">
+            <a href="{{ url('/master-kelas') }}" class="nav-link">
                 <i class="nav-icon fas fa-graduation-cap"></i>
               <p>Kelas</p>
             </a>

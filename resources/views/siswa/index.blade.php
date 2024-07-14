@@ -13,11 +13,15 @@
         </div>
     </div>
 </div>
-
 <div class="card">
     <div class="card-header">
         <div class="card-title">
             List Siswa
+        </div>
+        <div class="float-right">
+            <div class="btn-group">
+                <a href="{{ route('siswa.create') }}" class="btn btn-success"><i class="fa fa-plus"></i></a>
+            </div>
         </div>
     </div>
     <div class="card-body">
@@ -27,26 +31,21 @@
                     <th>No.</th>
                     <th>NIS</th>
                     <th>Nama</th>
-                    <th>Mapel</th>
-                    <th>Nilai</th>
+                    <th>Kelas</th>
+                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>10124112</td>
+                    <td>102081234</td>
                     <td>Asep</td>
+                    <td>8-A</td>
                     <td>
-                        <ul>
-                            <li>Matematika</li>
-                            <li>B.Indonesia</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>100</li>
-                            <li>80</li>
-                        </ul>
+                        <div class="btn-group">
+                            <a href="{{ route('siswa.edit', 1) }}" class="btn btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="#!" class="btn btn-danger"><span class="fa fa-trash"></span></a>
+                        </div>
                     </td>
                 </tr>
             </tbody>
