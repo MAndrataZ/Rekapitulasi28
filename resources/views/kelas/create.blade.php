@@ -38,6 +38,7 @@
                             <th>Tugas</th>
                             <th>UTS</th>
                             <th>UAS</th>
+                            <th>Nilai Akhir</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -46,6 +47,7 @@
                             <td><input type="number" class="form-control w-50" value="70"></td>
                             <td><input type="number" class="form-control w-50" value="82"></td>
                             <td><input type="number" class="form-control w-50" value="75"></td>
+                            <td><input type="number" class="form-control w-50" value="100"></td>
                         </tr>
                     </tbody>
                 </table>

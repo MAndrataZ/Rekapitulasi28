@@ -25,14 +25,16 @@
             <thead>
                 <tr>
                     <th>No.</th>
-                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>Mapel</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>1-A Inggris</td>
+                    <td>8-A</td>
+                    <td>B.Indonesia</td>
                     <td>
                         <div class="btn-group">
                             <a href="{{ route('kelas.show', 1) }}" class="btn btn-sm btn-info"><span class="fa fa-info"></span></a>
@@ -41,7 +43,8 @@
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>1-B Inggris</td>
+                    <td>8-B</td>
+                    <td>B.Indonesia</td>
                     <td>
                         <div class="btn-group">
                             <a href="{{ route('kelas.show', 1) }}" class="btn btn-sm btn-info"><span class="fa fa-info"></span></a>

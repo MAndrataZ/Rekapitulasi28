@@ -3,22 +3,17 @@
 @section('container')
 <section class="content">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="col-lg-3 col-6">
-                    <!-- small box -->
-                    <div class="small-box bg-info">
-                      <div class="inner">
-                        <h3>150</h3>
-        
-                        <p>New Orders</p>
-                      </div>
-                      <div class="icon">
-                        <i class="ion ion-bag"></i>
-                      </div>
-                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                  </div>
+        <div class="row mb-3">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard</h1>
+                <hr> <!-- Garis di bawah tulisan Dashboard -->
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-6">
+                <p>Nama: {{ Auth::user()->nama }}</p>
+                <p>Guru Wali: 8-A</p>
+                <p>Guru Mapel: B.Indonesia</p>
             </div>
         </div>
     </div>

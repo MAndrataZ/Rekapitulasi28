@@ -9,15 +9,17 @@
                     <thead>
                         <tr>
                             <th>No</th>
+                            <th>NIS</th>
                             <th>Nama</th>
-                            <th>Telepon</th>
+                            <th>Kelas</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Test</td>
-                            <td>0876123123132</td>
+                            <td>101221924</td>
+                            <td>Asep</td>
+                            <td>8-A</td>
                         </tr>
                     </tbody>
                 </table>
