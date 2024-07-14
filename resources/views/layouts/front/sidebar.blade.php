@@ -98,6 +98,24 @@
               <p>Dashboard</p>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a href="{{ route('siswa.index') }}" class="nav-link {{ Route::is('siswa.index')  ? 'active' : '' }}">
+              <i class="fas fa-user-graduate nav-icon"></i>
+              <p style="font-size: 15px;" class="font-weight-700">
+                Siswa
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('kelas.index') }}" class="nav-link {{ Route::is('kelas.index')  ? 'active' : '' }}">
+              <i class="fas fa-graduation-cap nav-icon"></i>
+              <p style="font-size: 15px;" class="font-weight-700">
+                Kelas
+              </p>
+            </a>
+          </li>
+        </ul>
       <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
