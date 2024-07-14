@@ -81,9 +81,17 @@
           </li>
           <!-- Mapel -->
           <li class="nav-item">
-            <a href="{{ url('/admin/dashboard-kurikulum') }}" class="nav-link">
+            <a href="{{ url('/mapel') }}" class="nav-link">
                 <i class="nav-icon fas fa-book-open"></i>
               <p>Mapel</p>
+            </a>
+          </li>
+
+          <!-- Kelas -->
+          <li class="nav-item">
+            <a href="{{ url('/kelas') }}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+              <p>Kelas</p>
             </a>
           </li>
 
