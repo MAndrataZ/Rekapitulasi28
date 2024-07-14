@@ -66,13 +66,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{ url('/guru/tambah') }}" class="nav-link">
+                <a href="{{ url('/guru/create') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Tambah Guru</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ url('/guru/master') }}" class="nav-link">
+                <a href="{{ url('/guru') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Master Guru</p>
                 </a>

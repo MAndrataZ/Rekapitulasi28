@@ -36,4 +36,5 @@ Route::middleware(['auth'])->group(function(){
     Route::resource('mapel', 'MapelController');
     Route::resource('kelas', 'KelasController');
     Route::resource('siswa', 'SiswaController');
+    Route::resource('guru', 'GuruController');
 });
