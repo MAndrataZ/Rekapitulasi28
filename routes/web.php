@@ -32,4 +32,8 @@ Route::middleware(['auth'])->group(function(){
     
     //Tampilan guru
     Route::get('admin/dashboard-guru', 'DashboardGuruController@index')->name('dashboard-guru.index');
+
+    Route::resource('mapel', 'MapelController');
+    Route::resource('kelas', 'KelasController');
+    Route::resource('siswa', 'SiswaController');
 });
