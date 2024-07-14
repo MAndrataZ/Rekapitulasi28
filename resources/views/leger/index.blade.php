@@ -4,11 +4,11 @@
 <div class="container-fluid">
     <div class="row mb-2">
         <div class="col-sm-6">
-            <h1>Siswa</h1>
+            <h1>Leger</h1>
         </div>
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item active">Siswa</li>
+                <li class="breadcrumb-item active">Leger</li>
             </ol>
         </div>
     </div>
@@ -17,7 +17,7 @@
 <div class="card">
     <div class="card-header">
         <div class="card-title">
-            List Siswa
+            List Kelas
         </div>
     </div>
     <div class="card-body">
@@ -25,28 +25,27 @@
             <thead>
                 <tr>
                     <th>No.</th>
-                    <th>NIS</th>
                     <th>Nama</th>
-                    <th>Mapel</th>
-                    <th>Nilai</th>
+                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>10124112</td>
-                    <td>Asep</td>
+                    <td>7-A</td>
                     <td>
-                        <ul>
-                            <li>Matematika</li>
-                            <li>B.Indonesia</li>
-                        </ul>
+                        <div class="btn-group">
+                            <a href="{{ route('leger.show', 1) }}" class="btn btn-sm btn-info"><span class="fa fa-info"></span></a>
+                        </div>
                     </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>7-B</td>
                     <td>
-                        <ul>
-                            <li>100</li>
-                            <li>80</li>
-                        </ul>
+                        <div class="btn-group">
+                            <a href="{{ route('leger.show', 1) }}" class="btn btn-sm btn-info"><span class="fa fa-info"></span></a>
+                        </div>
                     </td>
                 </tr>
             </tbody>

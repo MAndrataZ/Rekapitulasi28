@@ -4,20 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MapelController extends Controller
+class GuruController extends Controller
 {
     public function index()
     {
-        return view('mapel.index');
+        return view('guru.index');
     }
 
     public function create()
     {
-        return view('mapel.create');
+        return view('guru.create');
     }
 
     public function edit()
     {
-        return view('mapel.edit');
+        return view('guru.edit');
     }
 }

@@ -21,7 +21,7 @@
         </div>
         <div class="float-right">
             <div class="btn-group">
-                <a href="#!" class="btn btn-success"><i class="fa fa-plus"></i></a>
+                <a href="{{ route('mapel.create') }}" class="btn btn-success"><i class="fa fa-plus"></i></a>
             </div>
         </div>
     </div>
@@ -40,8 +40,7 @@
                     <td>Matematika</td>
                     <td>
                         <div class="btn-group">
-                            <a href="{{ route('kelas.index') }}" class="btn btn-sm btn-info"><span class="fa fa-info"></span></a>
-                            <a href="#!" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="{{ route('mapel.edit', 1) }}" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>
                             <a href="#!" class="btn btn-sm btn-danger"><span class="fa fa-trash"></span></a>
                         </div>
                     </td>
