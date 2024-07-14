@@ -97,7 +97,7 @@
 
           <!-- Leger -->
           <li class="nav-item">
-            <a href="{{ url('/admin/dashboard-kurikulum') }}" class="nav-link">
+            <a href="{{ url('/leger') }}" class="nav-link">
                 <i class="nav-icon fas fa-file-alt"></i>
               <p>Leger</p>
             </a>
