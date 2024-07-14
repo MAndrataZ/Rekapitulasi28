@@ -79,7 +79,23 @@
               </li>
             </ul>
           </li>
+          <!-- Mapel -->
+          <li class="nav-item">
+            <a href="{{ url('/admin/dashboard-kurikulum') }}" class="nav-link">
+                <i class="nav-icon fas fa-book-open"></i>
+              <p>Mapel</p>
+            </a>
+          </li>
+
+          <!-- Leger -->
+          <li class="nav-item">
+            <a href="{{ url('/admin/dashboard-kurikulum') }}" class="nav-link">
+                <i class="nav-icon fas fa-file-alt"></i>
+              <p>Leger</p>
+            </a>
+          </li>
         </ul>
+
       </nav>
       <!-- /.sidebar-menu -->
     </div>
