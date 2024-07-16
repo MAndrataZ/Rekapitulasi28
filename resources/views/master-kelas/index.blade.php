@@ -37,7 +37,17 @@
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>7-A</td>
+                    <td>8-A</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="{{ route('master-kelas.edit', 1) }}" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="#!" class="btn btn-sm btn-danger"><span class="fa fa-trash"></span></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>8-B</td>
                     <td>
                         <div class="btn-group">
                             <a href="{{ route('master-kelas.edit', 1) }}" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>

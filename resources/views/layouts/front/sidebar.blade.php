@@ -84,17 +84,17 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Dashboard -->
           <li class="nav-item">
-            <a href="{{ url('/admin/dashboard-guru') }}" class="nav-link">
+            <a href="{{ url('/admin/dashboard-guru')  }}" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>Dashboard</p>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="{{ route('siswa-wali.index') }}" class="nav-link {{ Route::is('siswa.index')  ? 'active' : '' }}">
+            <a href="{{ route('siswa-wali.index') }}" class="nav-link {{ Route::is('siswa-wali.index')  ? 'active' : '' }}">
               <i class="fas fa-user-graduate nav-icon"></i>
               <p style="font-size: 15px;" class="font-weight-700">
-                Siswa
+                Kelas Wali
               </p>
             </a>
           </li>
@@ -102,7 +102,15 @@
             <a href="{{ route('kelas.index') }}" class="nav-link {{ Route::is('kelas.index')  ? 'active' : '' }}">
               <i class="fas fa-graduation-cap nav-icon"></i>
               <p style="font-size: 15px;" class="font-weight-700">
-                Kelas
+                Kelas Mapel
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('koreksi.index') }}" class="nav-link {{ Route::is('koreksi.index')  ? 'active' : '' }}">
+              <i class="far fa-edit nav-icon"></i>
+              <p style="font-size: 15px;" class="font-weight-700">
+                Koreksi
               </p>
             </a>
           </li>

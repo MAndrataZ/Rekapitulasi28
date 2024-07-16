@@ -50,6 +50,32 @@
                         </div>
                     </td>
                 </tr>
+                <tr>
+                    <td>1</td>
+                    <td>102081234</td>
+                    <td>Ahmad Supriadi</td>
+                    <td>B.Indonesia</td>
+                    <td>8-A</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="{{ route('guru.edit', 1) }}" class="btn btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="#!" class="btn btn-danger"><span class="fa fa-trash"></span></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>102081234</td>
+                    <td>Tuti Astuti</td>
+                    <td>B.Inggris</td>
+                    <td>7-C</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="{{ route('guru.edit', 1) }}" class="btn btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="#!" class="btn btn-danger"><span class="fa fa-trash"></span></a>
+                        </div>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>

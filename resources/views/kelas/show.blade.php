@@ -28,7 +28,7 @@
                     <th>No.</th>
                     <th>NIS</th>
                     <th>Nama</th>
-                    <th>Nilai Akhir</th>
+                    <th>Nilai Sumatif</th>
                     <th>Aksi</th>
                 </tr>
             </thead>

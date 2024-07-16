@@ -45,6 +45,26 @@
                         </div>
                     </td>
                 </tr>
+                <tr>
+                    <td>2</td>
+                    <td>B.Indonesia</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="{{ route('mapel.edit', 1) }}" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="#!" class="btn btn-sm btn-danger"><span class="fa fa-trash"></span></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>B.Inggriss</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="{{ route('mapel.edit', 1) }}" class="btn btn-sm btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="#!" class="btn btn-sm btn-danger"><span class="fa fa-trash"></span></a>
+                        </div>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>

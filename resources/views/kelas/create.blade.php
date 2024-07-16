@@ -38,7 +38,7 @@
                             <th>Tugas</th>
                             <th>UTS</th>
                             <th>UAS</th>
-                            <th>Nilai Akhir</th>
+                            <th>Nilai Sumatif</th>
                         </tr>
                     </thead>
                     <tbody>

@@ -25,14 +25,14 @@
             <thead>
                 <tr>
                     <th>No.</th>
-                    <th>Nama</th>
+                    <th>Kelas</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>7-A</td>
+                    <td>8-A</td>
                     <td>
                         <div class="btn-group">
                             <a href="{{ route('leger.show', 1) }}" class="btn btn-sm btn-info"><span class="fa fa-info"></span></a>
@@ -41,7 +41,7 @@
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>7-B</td>
+                    <td>8-B</td>
                     <td>
                         <div class="btn-group">
                             <a href="{{ route('leger.show', 1) }}" class="btn btn-sm btn-info"><span class="fa fa-info"></span></a>

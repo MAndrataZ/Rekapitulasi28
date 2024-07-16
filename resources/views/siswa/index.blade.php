@@ -48,6 +48,30 @@
                         </div>
                     </td>
                 </tr>
+                <tr>
+                    <td>2</td>
+                    <td>102081091</td>
+                    <td>Udin</td>
+                    <td>8-A</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="{{ route('siswa.edit', 1) }}" class="btn btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="#!" class="btn btn-danger"><span class="fa fa-trash"></span></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>102081256</td>
+                    <td>Astuti</td>
+                    <td>8-B</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="{{ route('siswa.edit', 1) }}" class="btn btn-warning"><span class="fa fa-edit"></span></a>
+                            <a href="#!" class="btn btn-danger"><span class="fa fa-trash"></span></a>
+                        </div>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>

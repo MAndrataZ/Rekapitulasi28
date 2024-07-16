@@ -28,6 +28,7 @@
                     <th rowspan="2">No.</th>
                     <th rowspan="2">NIS</th>
                     <th rowspan="2">Nama</th>
+                    <th rowspan="2">8</th>
                     <th colspan="11">Mapel</th>
                 </tr>
                 <tr>
@@ -47,6 +48,41 @@
                     <td>1</td>
                     <td>191379813</td>
                     <td>Asep</td>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>191379890</td>
+                    <td>Udin</td>
+                    <td>A</td>
+                    <td>100</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>1913798095</td>
+                    <td>Tuti</td>
+                    <td>A</td>
                     <td>100</td>
                     <td>10</td>
                     <td>10</td>

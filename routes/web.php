@@ -40,4 +40,6 @@ Route::middleware(['auth'])->group(function(){
     Route::resource('siswa-wali', 'SiswaWaliController');
     Route::resource('guru', 'GuruController');
     Route::resource('leger', 'LegerController');
+    Route::resource('koreksi', 'KoreksiController');
+    Route::resource('koreksi', 'KoreksiController');
 });
