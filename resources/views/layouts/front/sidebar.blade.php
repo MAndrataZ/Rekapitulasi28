@@ -91,7 +91,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="{{ route('siswa.index') }}" class="nav-link {{ Route::is('siswa.index')  ? 'active' : '' }}">
+            <a href="{{ route('siswa-wali.index') }}" class="nav-link {{ Route::is('siswa.index')  ? 'active' : '' }}">
               <i class="fas fa-user-graduate nav-icon"></i>
               <p style="font-size: 15px;" class="font-weight-700">
                 Siswa

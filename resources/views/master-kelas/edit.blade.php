@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label for="nama">Nama</label>
+                        <label for="nama">Kelas</label>
                         <input type="text" class="form-control" name="nama" value="7-A" required>
                     </div>
                 </div>

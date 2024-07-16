@@ -33,7 +33,7 @@
                     <th>Nama</th>
                     <th>Mapel</th>
                     <th>Wali Kelas</th>
-                    <th>Action</th>
+                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
@@ -41,8 +41,8 @@
                     <td>1</td>
                     <td>102081234</td>
                     <td>Rocky Gerung</td>
-                    <td>Filsuf</td>
-                    <td>1-A</td>
+                    <td>Matematika</td>
+                    <td>7-A</td>
                     <td>
                         <div class="btn-group">
                             <a href="{{ route('guru.edit', 1) }}" class="btn btn-warning"><span class="fa fa-edit"></span></a>

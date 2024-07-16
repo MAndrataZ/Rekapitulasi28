@@ -38,13 +38,25 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="mapel">Mapel</label>
-                        <input type="text" class="form-control" name="mapel" required>
+                        <select class="form-control" name="mapel" required>
+                            <option value="">Pilih Mapel</option>
+                            <option value="Matematika">Matematika</option>
+                            <option value="Bahasa Indonesia">Bahasa Indonesia</option>
+                            <option value="Bahasa Inggris">Bahasa Inggris</option>
+
+                        </select>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="walas">Wali Kelas</label>
-                        <input type="text" class="form-control" name="walas" required>
+                        <select class="form-control" name="walas" required>
+                            <option value="">Pilih Wali Kelas</option>
+                            <option value="Kelas 1A">7-A</option>
+                            <option value="Kelas 1B">7-B</option>
+                            <option value="Kelas 2A">8-A</option>
+                            
+                        </select>
                     </div>
                 </div>
             </div>

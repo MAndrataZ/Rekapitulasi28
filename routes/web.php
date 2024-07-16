@@ -37,6 +37,7 @@ Route::middleware(['auth'])->group(function(){
     Route::resource('kelas', 'KelasController');
     Route::resource('master-kelas', 'MasterKelasController');
     Route::resource('siswa', 'SiswaController');
+    Route::resource('siswa-wali', 'SiswaWaliController');
     Route::resource('guru', 'GuruController');
     Route::resource('leger', 'LegerController');
 });

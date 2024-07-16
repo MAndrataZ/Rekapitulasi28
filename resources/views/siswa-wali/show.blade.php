@@ -8,7 +8,7 @@
         </div>
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="{{ route('leger.index') }}">Leger</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('siswa-wali.index') }}">Siswa</a></li>
                 <li class="breadcrumb-item active">Siswa</li>
             </ol>
         </div>
@@ -47,7 +47,7 @@
                     <td>1</td>
                     <td>191379813</td>
                     <td>Asep</td>
-                    <td>10</td>
+                    <td>100</td>
                     <td>10</td>
                     <td>10</td>
                     <td>10</td>
